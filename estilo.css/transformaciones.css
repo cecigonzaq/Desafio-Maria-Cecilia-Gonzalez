@@ -1,0 +1,37 @@
+.flex{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.objeto{
+    background-color: black;
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.transform{
+    transform: translate(10px, 20px);
+}
+
+.rotate{
+    transform: rotate(70deg);
+}
+.enx{
+    transform: rotateX(70deg);
+}
+
+.eny{
+    transform: rotateY(70deg);
+}
+.enz{
+    transform: rotateZ(70deg);
+}
+
+.scale{
+    transform: scaleZ(2);
+}
+
+.sesgar{
+    transform: skew(25deg);
+}

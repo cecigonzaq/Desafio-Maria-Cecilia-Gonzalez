@@ -1,0 +1,27 @@
+
+
+
+
+
+#defecto{
+     background-image: linear-gradient(red yellow blue);
+}
+#derecha{
+    background-image: linear-gradient(to right black red);
+}
+#debajo{
+    background-image: linear-gradient(to bottom black red);
+
+}
+#izquierdo{
+    background-image: linear-gradient(to left black red);
+
+}
+#radial{
+    background-image:radial-gradient(circle black red);
+
+}
+#radial{
+    background-image:radial-gradient(ellipse black red);
+
+}

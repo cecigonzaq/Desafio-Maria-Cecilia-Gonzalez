@@ -1,0 +1,72 @@
+section{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+@keyframes un_efecto{
+    0% {
+        width: 100px;
+    }
+
+    25% {
+        width: 300px;
+    }
+    50% {
+        width: 200px;
+        background-color: hotpink;
+    }
+    75% {
+        width: 300px;
+    }
+    100% {
+        width: 100px;
+        background-color: green;
+    }
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: normal;
+}
+
+@keyframes animacion{
+    0% {
+        background-color: hotpink;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: rgb(95, 200, 241);
+        left: 300px;
+        top: 0px;
+    }
+    50% {
+        background-color: rgb(102, 86, 94);
+        left: 300px;
+        top: 300px;
+    }
+    75% {
+        background-color: rgb(69, 235, 54);
+        left: 0px;
+        width: 300px;
+        top: 300px;
+    }
+    100% {
+        background-color: rgb(68, 31, 236);
+        left: 0px;
+        top: 0px;
+    }
+}
