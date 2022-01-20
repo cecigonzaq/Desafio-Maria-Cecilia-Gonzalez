@@ -1,27 +1,51 @@
 
+.navbar{
+    
+    height: 150px;
+    width: 100%;
+    background-color: rgb(0, 255, 242);
+    flex-direction: column;
+    justify-content: flex-start;
+   
+  
+    
+}
+ul{
+    display: inline-block;
+
+}
 
 
 
+h1{
+    color: aqua;
+    text-align: center;
+}
+h2{
+    color: rgb(35, 92, 92);
+    text-align: center;
+}
 
 #defecto{
-     background-image: linear-gradient(red yellow blue);
+     background:
+     linear-gradient(45deg, rgb(219, 26, 26), yellow);
 }
 #derecha{
-    background-image: linear-gradient(to right black red);
+    background:linear-gradient(to right, rgb(219, 26, 26), rgb(10, 10, 2));
 }
 #debajo{
-    background-image: linear-gradient(to bottom black red);
+    background-image: linear-gradient(rgb(0, 255, 242), rgb(32, 241, 95));
 
 }
-#izquierdo{
-    background-image: linear-gradient(to left black red);
-
-}
-#radial{
-    background-image:radial-gradient(circle black red);
+#izquierda{
+    background: linear-gradient(to left, rgb(219, 26, 26), rgb(10, 10, 2));
 
 }
 #radial{
-    background-image:radial-gradient(ellipse black red);
+    background-image: radial-gradient(circle, rgb(19, 226, 216), rgb(190, 238, 16));
+
+}
+#radiales{
+    background-image: radial-gradient(ellipse, rgb(12, 26, 25), rgb(190, 238, 16));
 
 }
